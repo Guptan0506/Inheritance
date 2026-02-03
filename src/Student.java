@@ -18,8 +18,5 @@ public class Student extends Person{
         this.gradeLevel = gradeLvl;
     }
 
-    public Student(Person p, int gradeLvl) {
-        super(p.getIDNum(), p.getFirstName(), p.getLastName(), p.getTitle(), p.getYOB());
-        this.gradeLevel = gradeLvl;
-    }
+
 }

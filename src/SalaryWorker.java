@@ -27,6 +27,7 @@ public class SalaryWorker extends Worker {
         double weeklyPay = calculateWeeklyPay(hoursWorked);
         System.out.println("Annual Salary: $" + annualSalary);
         System.out.printf("Weekly Pay for %s %s: $%.2f%n", getFirstName(), getLastName(), weeklyPay);
+        super.displayWeeklyPay(hoursWorked);
         return;
     }
 
